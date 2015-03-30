@@ -142,6 +142,7 @@ hr.style-eight:after {
 	color: white;
 	font-family: 'Rokkitt', serif;
 	padding-bottom: 50px;
+	margin: 0px;
 }
 
 .event-type {
@@ -180,12 +181,14 @@ hr.style-eight:after {
 
 #contact-container {
 	padding-top: 80px;
+	padding-right: 0px;
 }
 
 #contact-info {
 	padding-top: 50px;
 	padding-left: 50px;
 	padding-bottom: 50px;
+	padding-right: 0px;
 	text-shadow: 1px 1px 1px #666666;
 	font-size: 40px;
 	line-height: 115%;
@@ -193,4 +196,9 @@ hr.style-eight:after {
 	font-weight: 100;
 	background-color: #222222;
 	height: 600px;
+}
+
+/** row styling - fixing weird white space **/
+.row {
+	margin: 0px;
 }
